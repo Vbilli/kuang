@@ -38,6 +38,20 @@ namespace Bootstrap
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
+            bundles.Add(new ScriptBundle("~/bundles/BootStrap").Include(
+                       "~/Scripts/jquery-1.11.3.js",
+                        "~/Scripts/bootstrap.js",
+                        "~/Scripts/holder.min.js",
+                        "~/Scripts/ie10-viewport-bug-workaround.js",
+                        "~/Scripts/ie-emulation-modes-warning.js",
+                        "~/Scripts/modernizr-2.6.2.js"
+                    ));
+            bundles.Add(new StyleBundle("~/Content/BootStrap").Include(
+                        "~/Content/bootstrap.min.css" ,
+                        "~/Content/carousel.css" ,
+                        "~/Content/signin.css" ,
+                        "~/Content/navbar.css" 
+                        ));
         }
     }
 }
