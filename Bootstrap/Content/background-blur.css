@@ -1,0 +1,28 @@
+body{
+    padding-top:0px;
+}
+
+
+
+.blur {
+      background-image: url('../Images/blur-image.png') ;
+      display:block;
+      width:1440px;
+      height:900px;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.image-front{
+
+          background-image: url('../Images/porsche-991-hd-1440x900.jpg') ;
+      display:block;
+      width:720px;
+      height:450px;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
