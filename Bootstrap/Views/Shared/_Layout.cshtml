@@ -9,10 +9,10 @@
     <meta name="author" content="">
     <link rel="icon" href="~/Images/favicon.ico">
     <title>Carousel Template for Bootstrap</title>
-    <!-- Bootstrap core CSS -->
-    @Scripts.Render("~/bundles/jquery")
+    <!-- Bootstrap JQuery core CSS -->
+    <script src="~/Scripts/jquery-1.11.3.js"></script>
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
-    @Styles.Render("~/Content/BootStrap")
+
     <style type="text/css">
         .footer {
             position: absolute;
@@ -43,20 +43,6 @@
             margin-bottom: 60px;
         }
     </style>
-    @*<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
-        <link href="~/Content/carousel.css" rel="stylesheet" />
-        <link href="~/Content/navbar.css" rel="stylesheet" />
-        <link href="~/Content/signin.css" rel="stylesheet" />*@
-
-    @*<script src="~/Scripts/jquery-1.11.3.js"></script>
-        <script src="~/Scripts/bootstrap.js"></script>
-
-        <script src="~/Scripts/holder.min.js"></script>
-        <script src="~/Scripts/ie10-viewport-bug-workaround.js"></script>
-        <script src="~/Scripts/ie-emulation-modes-warning.js"></script>
-
-        <script src="~/Scripts/modernizr-2.6.2.js"></script>*@
-
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -70,18 +56,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Custom styles for this template -->
-
-
 </head>
-<!-- NAVBAR
-================================================== -->
+
 <body>
     @RenderBody()
-    @*<footer class="footer">
-            <div class="container">
-                <p class="text-muted">liuhuibin.Ltd., Corp 版权所有，翻版必究.</p>
-            </div>
-        </footer>*@
+
     <footer class="footer">
         <div class="footcontainer">
             <p class="text-muted">liuhuibin.Ltd., Corp 版权所有，翻版必究</p>
